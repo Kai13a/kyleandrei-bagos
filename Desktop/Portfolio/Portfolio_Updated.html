@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Portfolio_Styles.css">
+    </head>
+
+    <body>
+      <nav class="topnav">
+              <a href="#Home">HOME</a>
+              <a href="#About_Me">ABOUT ME</a>
+              <a href="#Works">WORKS</a>
+              <a href="#Contacts">CONTACT</a>
+      </nav>
+
+
+       <section id="Home" class="home_bg">
+        <div class="count-container-home">
+
+            <div >
+            <img src="https://avatars.githubusercontent.com/u/103879439?v=4" width="auto" height="auto" class="img_rad"; >
+            </div>
+            
+            <div class="box-home">
+            <h3 class="home-h3">HI, IM KYLE ANDREI BAGOS</h3>
+            <p class="home-p">I am a 20 years old guy currently studying Computer Science at Batangas State University. Aspiring to become a 
+              Web Developer,Software Develop and/or a Game Developer in the future.</p>
+    
+            </div>
+            
+        </div>
+       </section>
+
+
+
+       <section id="About_Me" class="about_me_bg">
+        <div>
+          <h1 class="centered ">  ABOUT  <span class="span-color">  ME  </span></h1>
+          
+        </div>
+        <div class="count-container">
+          <div class="box">
+          <h3>Personal Information</h3>
+          <p>Name: Kyle Andrei D. Bagos</p>
+          <p>Email: bagoskyleandrei@yahoo.com</p>
+          <p>Age: 20</p>
+          <p>Height: 5'10</p>
+          <p>School: Batangas State University - Alangilan Campus</p>
+          </div>
+          <div class="box">
+          <h3>Fun Facts About Me</h3>
+          <p>* My Username(Kai13a) came from my real name (Kyle AndreI BAgos)</p>
+          <p>* I can play the piano on the spot just by looking at the chords and I can also play it by ears(Not in one take tho)</p>
+          <p>* I collect sports cards for investment and collections</p>
+          <p>* I am a Cross-dominant person</p>
+          </div>
+        </div>
+        <div>
+          <h1 class="centered ">  MY   <span class="span-color">  HOBBIES  </span></h1>
+        </div>
+        
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <center><img src="https://i.redd.it/hwkszq6q3g5a1.jpg" style="width:70%"></center>
+            <center><div class="text">I Love to play Video Games</div></center>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <center><img src="https://s3.gaming-cdn.com/images/products/6503/616x353/game-steam-aseprite-cover.jpg?v=1608049517" style="width:70%"></center>
+            <center><div class="text">I create Pixel Arts(Sometimes/Barely/Depends)</div></center>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <center><img src="https://i.redd.it/op0pn9kx6g5a1.jpg" style="width:70%"></center>
+            <center><div class="text">I love to Watch Animes and Read Mangas</div></center>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <center><img src="https://img.freepik.com/free-psd/retro-black-vinyl-cover-mockup-design_53876-98749.jpg?w=2000" style="width:70%"></center>
+            <center><div class="text">I Love to Listen to Music</div></center>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <center><img src="https://i1.sndcdn.com/artworks-000064624357-3a4gu3-t240x240.jpg" style="width:70%"></center>
+            <center><div class="text">I Love to Play the Piano</div></center>
+          </div>
+
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span>  
+            <span class="dot"></span> 
+          </div>
+          
+          <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 5000);
+          }
+          </script>
+
+
+        <section>
+
+          <div>
+            <h1 class="centered ">  MY   <span class="span-color">  SKILLS  </span></h1>
+          </div>
+        <div class="container">
+            <div class="box margin-x-25">
+            <center><img src="https://brandslogos.com/wp-content/uploads/thumbs/c-logo-vector.svg" width="60px height="60px";></center>
+            <center><h3>C++</h3></center>
+            </div>
+            
+            <div class="box margin-x-25">
+            <center><img src="https://brandslogos.com/wp-content/uploads/images/large/java-logo-1.png" width="60px height="60px";></center>
+            <center><h3>JAVA</h3></center>
+            </div>
+            
+            <div class="box margin-x-25">
+            <center><img src="https://www.citypng.com/public/uploads/preview/hd-python-logo-symbol-transparent-png-11639606208newcm5th7y.png" width="60px height="60px";></center>
+            <center><h3>PYTHON</h3></center>
+            </div>
+            
+            <div class="box margin-x-25">
+            <center><img src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" width="60px height="60px";></center>
+            <center><h3>HTML</h3></center>
+            </div>
+            
+            <div class="box margin-x-25">
+            <center><img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" width="60px height="60px";></center>
+            <center><h3>CSS</h3></center>
+            </div>
+            
+        </div>
+
+        </section>
+
+        <section>
+          <div class="container margin_top">
+              <div class="box margin-x-25">
+              <center><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="60px height="60px";></center>
+              <center><h3>Javascript</h3></center>
+              </div>
+              
+              <div class="box margin-x-25">
+              <center><img src="https://assets.stickpng.com/thumbs/58481791cef1014c0b5e4994.png" width="60px height="60px";></center>
+              <center><h3>PHP</h3></center>
+              </div>
+              
+              <div class="box margin-x-25">
+              <center><img src="https://assets.stickpng.com/images/5848104fcef1014c0b5e4950.png" width="60px height="60px";></center>
+              <center><h3>MySQL</h3></center>
+              </div>
+              
+              <div class="box margin-x-25">
+              <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" width="60px height="60px";></center>
+              <center><h3>BootStrap</h3></center>
+              </div>
+              
+            
+              
+          </div>
+  
+          </section>
+        
+        
+
+        <div>
+          <h1 class="centered ">  MY   <span class="span-color">  JOURNEY  </span></h1>
+        </div>
+   
+
+            
+            <center><div class="centered">
+              <center><img class="margin_top_plus" src="https://enrollment.ub.edu.ph/admission/resources/img/logo.jpg" style="width: 22%;"></center>
+              <p class="small">2008-2014<p>
+              <h6 class="margin_down_minus">University of Batangas</h6>
+              <h5>ELEMENTARY GRADUATE</h5>
+
+            <div></center>
+              
+              <div class="vline va"></div>
+
+            <center><div class="centered">
+              <center><img class="margin_top_plus" src="https://upload.wikimedia.org/wikipedia/en/6/61/Saint_Bridget_College%27s_Seal_2.png" style="width: 22%;"></center>
+                <p class="small">2014-2018</p>
+                <h6 class="margin_down_minus">St. Bridget College Batangas</h6>
+                <h5>JUNIOR HIGH SCHOOL GRADUATE</h5>
+            <div></center>
+              <div class="vline vb"></div>
+
+            <center><div class="centered">
+              <center><img class="margin_top_plus" src="https://upload.wikimedia.org/wikipedia/en/6/61/Saint_Bridget_College%27s_Seal_2.png" style="width: 22%;"></center>
+                <p class="small">2018-2020</p>
+                <h6 class="margin_down_minus">St. Bridget College Batangas</h6>
+                <center><h6 class="margin_down_minus">Strand: STEM</h6></center>
+                <h5>SENIOR HIGH SCHOOL GRADUATE</h5>
+            <div></center>
+              <div class="vline vc"></div>
+
+            <center><div class="centered">
+              <center><img  class="margin_top_plus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/BatStateU_NEU_Logo.png/800px-BatStateU_NEU_Logo.png" style="width: 22%;"></center>
+                <p class="small marggin_up_" >2020-PRESENT</p>
+                <h6 class="margin_down_minus">Batangas State Univerisity - Alangilan Campus</h6>
+                <center><h6 class="margin_down_minus">Course: BS in Computer Science</h6></center>
+                <h5>COLLEGE UNDERGRADUATE</h5>
+            <div></center>
+         
+        
+        <div>
+          <h1 class="centered ">  MY   <span class="span-color">  SERVICES  </span></h1>
+        </div>
+        <div class="count-container">
+          <div class="box">
+          <center><h3>SERVICE #1</h3></center>
+          <center><p>*UNDER DEVELOPMENT*</p></center>
+          </div>
+          <div class="box">
+          <center><h3>SERVICE #2</h3></center>
+          <center><p>*UNDER DEVELOPMENT*</p></center>
+          </div>
+        </div>
+        <!--ADD MY SKILLS, SERVICES, JOURNEY -->
+       </section>
+
+
+       <section id="Works" class="work_bg"> 
+        <center><h1 class="centered ">  MY   <span class="span-color">  WORKS  </span></h1></center>
+        <div class="container">
+          <div class="box margin-x-25">
+          <h3>WORK 1</h3>
+          <h5>Language: </h5>
+          </div>
+          
+          <div class="box margin-x-25">
+            <h3>WORK 2</h3>
+            <h5>Language: </h5>
+            </div>
+          
+          <div class="box margin-x-25">
+            <h3>WORK 3</h3>
+            <h5>Language: </h5>
+            </div>
+          
+          <div class="box margin-x-25">
+            <h3>WORK 4</h3>
+            <h5>Language: </h5>
+            </div>
+          
+          <div class="box margin-x-25">
+            <h3>WORK 5</h3>
+            <h5>Language: </h5>
+          </div>
+        </div>
+      
+      </section>
+
+       <section id="Contacts" class="contacts_bg">
+        <h1 class="centered ">  MY   <span class="span-color">  CONTACTS  </span></h1>
+          <center><h1>IF YOU WANT TO CONTACT ME OR BE MY FRIEND:</h1></center>
+        
+          <center><h3>SOCIALS:</h3></center>
+          <div class="row" >
+            <a  href="https://www.facebook.com/KyleAndrei.Bagos/">
+            <center><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" title="Facebook" width="20%"></center>
+            </a>
+            <a  href="https://github.com/Kai13a">
+              <center><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" title="Github" width="20%"></center>
+            </a>
+
+              <center><img src="https://www.freeiconspng.com/uploads/discord-black-icon-1.png" title="PROtotype #2074" width="20%"></center>
+
+            <a  href="https://twitter.com/KDBagos">
+              <center><img src="https://i.pinimg.com/originals/5c/a9/8c/5ca98c73b2bb7a02bf8350933c7ca443.png" title="Twitter" width="20%"></center>
+            </a>
+
+            <center><img src="https://cdn-icons-png.flaticon.com/512/52/52221.png" title="bagoskyleandrei@yahoo.com" width="20%"></center>
+
+          </div>
+
+
+
+        </section>
+    </body>
+</html>

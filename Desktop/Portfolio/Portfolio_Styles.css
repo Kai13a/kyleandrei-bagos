@@ -1,0 +1,387 @@
+body {
+	background: linear-gradient(-45deg, #2E3192, #1BFFFF);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.topnav {
+      /*background: linear-gradient(to right, #e2ddb6, #e4e4e2);*/
+
+  background-color: #333;
+  overflow: hidden;
+  height:80px;
+  width: auto;
+  display: flex;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 2rem;
+  font-size: 2rem;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+.home  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 4rem;
+    min-height: calc(100vh - 6.5rem);
+}
+
+.home-img{
+	-webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+    text-align: left;
+}
+
+.box-home{
+
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    background: #e2ddb6;
+    width:60%;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 70%);
+
+}
+
+.count-container-home{
+	-webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+
+.home-texts-contents {
+	-webkit-box-flex: 1;
+    -ms-flex: 1 1 42rem;
+    flex: 1 1 42rem;
+}
+.home-h3{
+	font-size: 3rem;
+	padding-left:1rem;
+	padding-bottom: 0.5rem;
+	margin-top:0.5rem;
+	margin-bottom:0.5rem;
+}
+.home-p{
+	font-size:1.2rem;
+	padding: 1rem;
+	margin-top:0.5rem;
+	margin-bottom:0.5rem;
+	
+}
+
+.home-h1{
+	font-size: 1.8rem;
+	padding: 1rem;
+	margin-top:0.5rem;
+	margin-bottom:0.5rem;
+}
+
+.img_rad {
+    border-radius: 50%;
+    padding-right: 30px;
+  }
+
+
+.home_bg{
+    /*background: linear-gradient(to right, #e2ddb6, #e4e4e2);*/
+    background-color: transparent;
+  }
+
+.about_me_bg{
+    /*background: linear-gradient(to right, #e2ddb6, #e4e4e2);*/
+    background-color: yellowgreen;
+    height: auto;
+  }
+
+  .educ_bg{
+    /*background: linear-gradient(to right, #e2ddb6, #e4e4e2);*/
+    background-color: grey;
+  }
+
+  .work_bg{
+    background-color: yellowgreen;
+    height: 500px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+
+  .contacts_bg{
+    background: linear-gradient(-45deg, #FFD700, #C0C0C0);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+
+  .pad-x-50{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .pad-y-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .margin-x-50{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .margin-y-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .margin-x-25{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .margin-y-25{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .just_content_center{
+    justify-content: center;
+  }
+
+  .small{
+    font-size: 60%;
+    margin-bottom: -80px;
+  }
+  .header-design{
+  
+    text-align:center;
+    
+  }
+  
+  
+  .box-container{
+    
+      -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+      flex: 1 1 42rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      gap: 2rem;
+      
+  }
+  .box{
+    -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+      flex: 1 1 20rem;
+      padding: 3rem 4rem;
+      border-radius: 0.5rem;
+      background: linear-gradient(-45deg, #FFD700, #C0C0C0);
+
+      -webkit-box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 70%);
+      box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 70%);
+      animation: movedown 1s linear 1;
+      animation-delay: 0.1s;
+     
+      animation-fill-mode: forwards;
+  }
+  
+  .count-container{
+    -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+      flex: 1 1 42rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      gap: 2rem;
+      animation: movedown 1s linear 1;
+      animation-delay: 0.5s;
+      
+      animation-fill-mode: forwards;
+  }
+  
+  
+  
+  .centered{
+    font-size:4rem;
+    text-align:center;
+  }
+  
+  .span-color{
+    font-size:4rem;
+    color: #C21807;
+  }
+  
+  .container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .box_bio {
+  
+  
+      padding: 3rem 4rem;
+      border-radius: 0.5rem;
+      background: yellow;
+      visibility: grid;
+     
+    display:flex;
+    gap:2rem;
+    flex-wrap:wrap;
+    width: 400px;
+    left:30px;
+    
+  }
+  
+  .margin_top{
+    margin-top: 50px;
+  }
+
+  .vline {
+    border-left: 6px solid yellow;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+  /*.va{
+    height: 110px;
+    top: 2535px;
+    position: absolute;
+  }
+
+  .vb{
+    height: 110px;
+    top: 3350px;
+    position: absolute;
+  }
+
+  .vc{
+    height: 110px;
+    top: 3745px;
+    position: absolute;
+  }
+*/
+  .margin_down_minus{
+    margin-bottom: -70px;
+  }
+
+  .margin_down_plus{
+    margin-bottom: 120px;
+  }
+
+  .margin_up_plus{
+    margin-top: 120px;
+  }
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  margin-top: 20px;
+  background-color: yellow;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+.row {
+display: flex;
+}
